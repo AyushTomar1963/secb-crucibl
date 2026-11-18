@@ -1,0 +1,2872 @@
+{
+ "split": "cve",
+ "counts": {
+  "n": 200,
+  "with_crash_frame": 186,
+  "file_hit": 107,
+  "symbol_hit": 65,
+  "line_hit": 39,
+  "any_frame_file_hit": 168,
+  "multi_file_gold": 21,
+  "no_crash_frame": 14
+ },
+ "rows": [
+  {
+   "instance_id": "njs.cve-2022-32414",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/q1iq/Documents/origin/njs_f65981b/src/njs_vmcode.c",
+    "symbol": "njs_vmcode_interpreter",
+    "start_line": 802,
+    "end_line": 802,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "gpac.cve-2023-5586",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/fuzz/gpac/gpac/applications/mp4box/mp4box.c",
+    "symbol": "do_dash",
+    "start_line": 4831,
+    "end_line": 4831,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": false
+  },
+  {
+   "instance_id": "mruby.cve-2022-0240",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/octa/mruby/src/class.c",
+    "symbol": "prepare_singleton_class",
+    "start_line": 360,
+    "end_line": 360,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "njs.cve-2022-28049",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "src/njs_vmcode.c",
+    "symbol": "njs_vmcode_array",
+    "start_line": 1049,
+    "end_line": 1049
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "njs.cve-2022-38890",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "data/test-njs/njs/src/njs_utf8.h",
+    "symbol": "njs_utf8_next",
+    "start_line": 54,
+    "end_line": 54,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libredwg.cve-2020-21816",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "programs/escape.c",
+    "symbol": "htmlescape",
+    "start_line": 46,
+    "end_line": 46,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "gpac.cve-2023-46929",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "afltest/gpac/src/media_tools/av_parsers.c",
+    "symbol": "gf_avc_change_vui",
+    "start_line": 6872,
+    "end_line": 6872,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "gpac.cve-2024-0321",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "filters/load_text.c",
+    "symbol": "gf_text_get_utf8_line",
+    "start_line": 381,
+    "end_line": 381,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libarchive.cve-2017-14503",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "libarchive/archive_read_support_format_lha.c",
+    "symbol": "lha_crc16",
+    "start_line": 1740,
+    "end_line": 1740,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "gpac.cve-2023-0760",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/fuzz/gpac/src/isomedia/box_funcs.c",
+    "symbol": "gf_isom_box_size",
+    "start_line": 1997,
+    "end_line": 1997,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "njs.cve-2022-31307",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/q1iq/Documents/origin/njs_f65981b/src/njs_string.c",
+    "symbol": "njs_string_offset",
+    "start_line": 2535,
+    "end_line": 2535,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "njs.cve-2021-46462",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/anonym0us/Git/fuzzilli-njs/njs-origin/njs/src/njs_object.c",
+    "symbol": "njs_object_set_prototype",
+    "start_line": 2136,
+    "end_line": 2136,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "njs.cve-2022-29779",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "src/njs_value.c",
+    "symbol": "njs_value_own_enumerate",
+    "start_line": 240,
+    "end_line": 240,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": false
+  },
+  {
+   "instance_id": "njs.cve-2022-29369",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/q1iq/Documents/origin/njs/src/njs_lvlhsh.c",
+    "symbol": "njs_lvlhsh_bucket_find",
+    "start_line": 231,
+    "end_line": 231,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "mruby.cve-2022-1201",
+   "n_gold_files": 1,
+   "baseline": null
+  },
+  {
+   "instance_id": "faad2.cve-2018-20198",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "root/faad2_asan/libfaad/filtbank.c",
+    "symbol": "ifilter_bank",
+    "start_line": 246,
+    "end_line": 246,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "mruby.cve-2022-1427",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "root/mruby/mruby/src/object.c",
+    "symbol": "mrb_obj_is_kind_of",
+    "start_line": 468,
+    "end_line": 468,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "gpac.cve-2023-48013",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/user/fuzzing_gpac/gpac/src/filter_core/filter.c",
+    "symbol": "gf_filterpacket_del",
+    "start_line": 38,
+    "end_line": 38,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "gpac.cve-2023-48011",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/user/fuzzing_gpac/gpac/src/isomedia/movie_fragments.c",
+    "symbol": "flush_ref_samples",
+    "start_line": 936,
+    "end_line": 936,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libredwg.cve-2021-28237",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/yuan/afl-target/libredwg-asan/src/decode.c",
+    "symbol": "decode_preR13_section",
+    "start_line": 470,
+    "end_line": 470,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "mruby.cve-2022-0631",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/alkyne/mruby-debug/src/vm.c",
+    "symbol": "mrb_f_send",
+    "start_line": 695,
+    "end_line": 695,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "mruby.cve-2022-1934",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/fuzz/fuzz/mruby/src/vm.c",
+    "symbol": "hash_new_from_values",
+    "start_line": 1167,
+    "end_line": 1167,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "njs.cve-2022-34029",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/ubuntu/njs-fuzz/JSEngine/njs/src/njs_scope.h",
+    "symbol": "njs_scope_value",
+    "start_line": 74,
+    "end_line": 74,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libarchive.cve-2019-11463",
+   "n_gold_files": 1,
+   "baseline": null
+  },
+  {
+   "instance_id": "mruby.cve-2022-0614",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/alkyne/mruby-debug/src/hash.c",
+    "symbol": "entry_deleted_p",
+    "start_line": 386,
+    "end_line": 386,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "faad2.cve-2018-20194",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "root/faad2_asan/libfaad/sbr_hfadj.c",
+    "symbol": "calculate_gain",
+    "start_line": 1314,
+    "end_line": 1314,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "gpac.cve-2023-4721",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "media_tools/mpeg2_ps.c",
+    "symbol": "MPEG12_ParseSeqHdr",
+    "start_line": 273,
+    "end_line": 273,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "gpac.cve-2022-3178",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "utils/utf.c",
+    "symbol": "gf_utf8_wcslen",
+    "start_line": 442,
+    "end_line": 442,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "exiv2.cve-2018-19607",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/marsman/Desktop/crashana/exiv2/exiv2-3f2e0de/src/easyaccess.cpp",
+    "symbol": "Exiv2::isoSpeed",
+    "start_line": 178,
+    "end_line": 178,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "gpac.cve-2023-3012",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "csu/libc-start.c",
+    "symbol": "__libc_start_main",
+    "start_line": 308,
+    "end_line": 308,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": false
+  },
+  {
+   "instance_id": "imagemagick.cve-2019-13309",
+   "n_gold_files": 2,
+   "baseline": {
+    "file": "MagickCore/memory.c",
+    "symbol": "AcquireMagickMemory",
+    "start_line": 478,
+    "end_line": 478,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "faad2.cve-2018-20196",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "root/faad2_asan/libfaad/sbr_hfadj.c",
+    "symbol": "calculate_gain",
+    "start_line": 1287,
+    "end_line": 1287,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": false
+  },
+  {
+   "instance_id": "gpac.cve-2022-2453",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/fuzz/fuzz/gpac/src/bifs/unquantize.c",
+    "symbol": "Q_IsTypeOn",
+    "start_line": 169,
+    "end_line": 169,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "gpac.cve-2021-40566",
+   "n_gold_files": 2,
+   "baseline": {
+    "file": "playground/gpac/src/filters/reframe_mpgvid.c",
+    "symbol": "mpgviddmx_process",
+    "start_line": 851,
+    "end_line": 851,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libredwg.cve-2020-6615",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "examples/dwg2svg2.c",
+    "symbol": "output_BLOCK_HEADER",
+    "start_line": 335,
+    "end_line": 335,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "gpac.cve-2023-46930",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "afltest/gpac/src/isomedia/media_odf.c",
+    "symbol": "gf_isom_find_od_id_for_track",
+    "start_line": 522,
+    "end_line": 522,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "gpac.cve-2023-3291",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "filters/reframe_mp3.c",
+    "symbol": "id3dmx_flush",
+    "start_line": 274,
+    "end_line": 274,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "njs.cve-2023-27727",
+   "n_gold_files": 3,
+   "baseline": {
+    "file": "root/njs/src/njs_function.h",
+    "symbol": "njs_function_frame",
+    "start_line": 155,
+    "end_line": 155,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "mruby.cve-2022-0717",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/alkyne/mruby-debug/src/array.c",
+    "symbol": "mrb_ary_push",
+    "start_line": 503,
+    "end_line": 503,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": false
+  },
+  {
+   "instance_id": "libredwg.cve-2020-6614",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "src/decode.c",
+    "symbol": "bfr_read",
+    "start_line": 1548,
+    "end_line": 1548,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "faad2.cve-2018-20195",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "root/faad2_asan/libfaad/ic_predict.c",
+    "symbol": "ic_predict",
+    "start_line": 96,
+    "end_line": 96,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "gpac.cve-2024-0322",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "filters/reframe_ac3.c",
+    "symbol": "ac3dmx_process",
+    "start_line": 489,
+    "end_line": 489,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "njs.cve-2023-27728",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "root/njs/src/njs_json.c",
+    "symbol": "njs_vm_value_dump",
+    "start_line": 2113,
+    "end_line": 2113,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "openjpeg.cve-2016-7445",
+   "n_gold_files": 2,
+   "baseline": {
+    "file": "home/starlab/fuzzing/openjpeg/src/bin/jp2/convert.c",
+    "symbol": "skip_white",
+    "start_line": 1331,
+    "end_line": 1331,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "faad2.cve-2021-32272",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/seviezhou/faad2/frontend/mp4read.c",
+    "symbol": "stszin",
+    "start_line": 355,
+    "end_line": 355,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "njs.cve-2022-31306",
+   "n_gold_files": 2,
+   "baseline": {
+    "file": "home/q1iq/Documents/origin/njs_f65981b/src/njs_array.c",
+    "symbol": "njs_array_convert_to_slow_array",
+    "start_line": 151,
+    "end_line": 151,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "gpac.cve-2023-0770",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "scenegraph/base_scenegraph.c",
+    "symbol": "gf_node_get_field",
+    "start_line": 2043,
+    "end_line": 2043,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "faad2.cve-2018-20361",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "root/faad2_asan/libfaad/sbr_hfadj.c",
+    "symbol": "hf_assembly",
+    "start_line": 1536,
+    "end_line": 1536,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "wabt.cve-2022-43282",
+   "n_gold_files": 3,
+   "baseline": null
+  },
+  {
+   "instance_id": "faad2.cve-2018-20357",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "root/faad2_asan/libfaad/sbr_dec.c",
+    "symbol": "sbr_process_channel",
+    "start_line": 413,
+    "end_line": 413,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": false
+  },
+  {
+   "instance_id": "gpac.cve-2023-0866",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "filters/reframe_adts.c",
+    "symbol": "adts_dmx_process",
+    "start_line": 831,
+    "end_line": 831,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libredwg.cve-2022-45332",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/SVF-tools/example/libredwg-2/src/decode_r11.c",
+    "symbol": "decode_preR13_section_hdr",
+    "start_line": 139,
+    "end_line": 139,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "gpac.cve-2023-0358",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "odf/descriptors.c",
+    "symbol": "gf_odf_vvc_cfg_read_bs",
+    "start_line": 1403,
+    "end_line": 1403,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "mruby.cve-2022-0623",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "root/fuzz/mruby/include/mruby.h",
+    "symbol": "mrb_check_frozen",
+    "start_line": 1418,
+    "end_line": 1418,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "imagemagick.cve-2018-5248",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/ubuntu/ImageMagick/coders/sixel.c",
+    "symbol": "sixel_decode",
+    "start_line": 289,
+    "end_line": 289,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "openjpeg.cve-2024-56827",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "openjpeg/src/lib/openjp2/j2k.c",
+    "symbol": "opj_j2k_add_tlmarker",
+    "start_line": 8460,
+    "end_line": 8460,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "mruby.cve-2018-11743",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "hash.c",
+    "symbol": "mrb_hash_keys",
+    "start_line": 768,
+    "end_line": 768,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "mruby.cve-2018-10199",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/me/grammarfuzz/mruby/mrbgems/mruby-io/src/io.c",
+    "symbol": "fptr_finalize",
+    "start_line": 650,
+    "end_line": 650,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "gpac.cve-2023-4679",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "filter_core/filter.c",
+    "symbol": "gf_filterpacket_del",
+    "start_line": 38,
+    "end_line": 38,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "faad2.cve-2018-20362",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "root/faad2_asan/libfaad/filtbank.c",
+    "symbol": "ifilter_bank",
+    "start_line": 275,
+    "end_line": 275,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "gpac.cve-2023-4682",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "media_tools/avilib.c",
+    "symbol": "avi_read",
+    "start_line": 67,
+    "end_line": 67,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "gpac.cve-2023-48014",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/user/fuzzing_gpac/gpac/src/media_tools/av_parsers.c",
+    "symbol": "hevc_parse_vps_extension",
+    "start_line": 7735,
+    "end_line": 7735,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libdwarf.cve-2022-32200",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/casper/targets/struct/libdwarf/aflasan/SRC/src/lib/libdwarf/dwarf_util.c",
+    "symbol": "_dwarf_check_string_valid",
+    "start_line": 938,
+    "end_line": 938,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libsndfile.cve-2018-19432",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/pwd/fuzz/fuzz-wavpack/libsndfile-1.0.28/src/sndfile.c",
+    "symbol": "sf_write_int",
+    "start_line": 2257,
+    "end_line": 2257,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "faad2.cve-2018-20358",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "root/faad2_asan/libfaad/lt_predict.c",
+    "symbol": "lt_prediction",
+    "start_line": 108,
+    "end_line": 108,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "faad2.cve-2018-20359",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "root/faad2_asan/libfaad/sbr_dec.c",
+    "symbol": "sbrDecodeSingleFramePS",
+    "start_line": 601,
+    "end_line": 601,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": false
+  },
+  {
+   "instance_id": "gpac.cve-2021-32438",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "media_tools/media_export.c",
+    "symbol": "gf_media_export_filters",
+    "start_line": 1112,
+    "end_line": 1112,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libiec61850.cve-2021-45769",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "src/mms/iso_acse/acse.c",
+    "symbol": "AcseConnection_parseMessage",
+    "start_line": 429,
+    "end_line": 429,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": false
+  },
+  {
+   "instance_id": "faad2.cve-2018-20197",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "root/faad2_asan/libfaad/sbr_hfadj.c",
+    "symbol": "calculate_gain",
+    "start_line": 1311,
+    "end_line": 1311,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "mruby.cve-2018-12248",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "vm.c",
+    "symbol": "mrb_vm_exec",
+    "start_line": 1859,
+    "end_line": 1859,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "gpac.cve-2023-0841",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "filters/reframe_mp3.c",
+    "symbol": "mp3_dmx_process",
+    "start_line": 677,
+    "end_line": 677,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "gpac.cve-2022-2454",
+   "n_gold_files": 1,
+   "baseline": null
+  },
+  {
+   "instance_id": "gpac.cve-2021-40575",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "playground/gpac/src/filters/reframe_mpgvid.c",
+    "symbol": "mpgviddmx_process",
+    "start_line": 643,
+    "end_line": 643,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "gpac.cve-2023-5998",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "path/gpac/src/filters/reframe_mpgvid.c",
+    "symbol": "mpgviddmx_process",
+    "start_line": 1166,
+    "end_line": 1166,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "mruby.cve-2018-12247",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "state.c",
+    "symbol": "mrb_default_allocf",
+    "start_line": 51,
+    "end_line": 51,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": false
+  },
+  {
+   "instance_id": "gpac.cve-2022-1795",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/wjh/gpac/src/scenegraph/base_scenegraph.c",
+    "symbol": "gf_node_try_destroy",
+    "start_line": 668,
+    "end_line": 668,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": false
+  },
+  {
+   "instance_id": "imagemagick.cve-2021-3962",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "root/fuzz/target/imagemagick/ImageMagick/coders/dcm.c",
+    "symbol": "RelinquishDCMMemory",
+    "start_line": 3039,
+    "end_line": 3039,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "imagemagick.cve-2018-5247",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/ubuntu/ImageMagick/coders/rla.c",
+    "symbol": "ReadRLAImage",
+    "start_line": 271,
+    "end_line": 271,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libredwg.cve-2021-28236",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/yuan/afl-target/libredwg-asan/src/out_dxfb.c",
+    "symbol": "dxfb_tables_write",
+    "start_line": 1902,
+    "end_line": 1902,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libredwg.cve-2020-21834",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "programs/dwgbmp.c",
+    "symbol": "get_bmp",
+    "start_line": 164,
+    "end_line": 164,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "imagemagick.cve-2017-12644",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "memory.c",
+    "symbol": "AcquireMagickMemory",
+    "start_line": 463,
+    "end_line": 463,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "mruby.cve-2022-0890",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/faraday/mruby/src/vm.c",
+    "symbol": "mrb_vm_exec",
+    "start_line": 1929,
+    "end_line": 1929,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": false
+  },
+  {
+   "instance_id": "mruby.cve-2022-1276",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "root/mruby/src/class.c",
+    "symbol": "mrb_get_args",
+    "start_line": 1009,
+    "end_line": 1009,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": false
+  },
+  {
+   "instance_id": "libredwg.cve-2021-39521",
+   "n_gold_files": 2,
+   "baseline": {
+    "file": "home/seviezhou/libredwg/src/bits.c",
+    "symbol": "bit_read_BB",
+    "start_line": 186,
+    "end_line": 186,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": false
+  },
+  {
+   "instance_id": "exiv2.cve-2017-17669",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/rg/fuzz_project/exiv2/exiv2_test/exiv2_github_1210/src/pngchunk_int.cpp",
+    "symbol": "Exiv2::Internal::PngChunk::keyTXTChunk",
+    "start_line": 111,
+    "end_line": 111,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": false
+  },
+  {
+   "instance_id": "imagemagick.cve-2017-12641",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "memory.c",
+    "symbol": "AcquireMagickMemory",
+    "start_line": 463,
+    "end_line": 463,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "gpac.cve-2023-0819",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "media_tools/mpegts.c",
+    "symbol": "gf_m2ts_process_tdt_tot",
+    "start_line": 952,
+    "end_line": 952,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "gpac.cve-2023-2840",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "isomedia/movie_fragments.c",
+    "symbol": "gf_isom_fragment_add_sample_ex",
+    "start_line": 2883,
+    "end_line": 2883,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "gpac.cve-2022-29537",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "ietf/rtp_pck_mpeg4.c",
+    "symbol": "gp_rtp_builder_do_hevc",
+    "start_line": 594,
+    "end_line": 594,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "imagemagick.cve-2019-13304",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "coders/pnm.c",
+    "symbol": "WritePNMImage",
+    "start_line": 1762,
+    "end_line": 1762,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "liblouis.cve-2023-26768",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "opt/disk/marsman/liblouis/6223f21/build_asan/liblouis/../../code/liblouis/logging.c",
+    "symbol": "lou_logFile",
+    "start_line": 130,
+    "end_line": 130,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "imagemagick.cve-2019-13305",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "coders/pnm.c",
+    "symbol": "WritePNMImage",
+    "start_line": 1906,
+    "end_line": 1906,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "imagemagick.cve-2017-11533",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "coders/uil.c",
+    "symbol": "WriteUILImage",
+    "start_line": 273,
+    "end_line": 273,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libiec61850.cve-2023-27772",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "src/iec61850/client/client_control.c",
+    "symbol": "ControlObjectClient_setOrigin",
+    "start_line": 328,
+    "end_line": 328,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "matio.cve-2019-9036",
+   "n_gold_files": 1,
+   "baseline": null
+  },
+  {
+   "instance_id": "imagemagick.cve-2019-13299",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "MagickCore/pixel-accessor.h",
+    "symbol": "GetPixelChannel",
+    "start_line": 116,
+    "end_line": 116,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "imagemagick.cve-2018-6405",
+   "n_gold_files": 1,
+   "baseline": null
+  },
+  {
+   "instance_id": "imagemagick.cve-2019-13303",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "MagickCore/composite.c",
+    "symbol": "CompositeImage",
+    "start_line": 666,
+    "end_line": 666,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "gpac.cve-2023-46928",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "afltest/gpac/src/media_tools/isom_tools.c",
+    "symbol": "gf_media_change_pl",
+    "start_line": 3293,
+    "end_line": 3293,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libheif.cve-2023-49460",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "libheif/libheif/uncompressed_image.cc",
+    "symbol": "UncompressedImageCodec::decode_uncompressed_image",
+    "start_line": 758,
+    "end_line": 758,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "imagemagick.cve-2017-14400",
+   "n_gold_files": 2,
+   "baseline": {
+    "file": "MagickCore/cache.c",
+    "symbol": "GetVirtualPixels",
+    "start_line": 3185,
+    "end_line": 3185,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "imagemagick.cve-2022-1115",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "root/fuzz/target/image_magick/ImageMagick/MagickCore/quantum-import.c",
+    "symbol": "ImportRGBAQuantum",
+    "start_line": 4232,
+    "end_line": 4232,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "exiv2.cve-2020-18899",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/wencheng/Documents/FuzzingObject/exiv2/src/types.cpp",
+    "symbol": "Exiv2::DataBuf::DataBuf",
+    "start_line": 141,
+    "end_line": 141,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "njs.cve-2022-29780",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "src/njs_array.c",
+    "symbol": "njs_array_prototype_sort",
+    "start_line": 2704,
+    "end_line": 2704,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libredwg.cve-2020-21814",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "programs/escape.c",
+    "symbol": "htmlwescape",
+    "start_line": 97,
+    "end_line": 97,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "imagemagick.cve-2019-13295",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "MagickCore/threshold.c",
+    "symbol": "AdaptiveThresholdImage",
+    "start_line": 323,
+    "end_line": 323,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "exiv2.cve-2017-14859",
+   "n_gold_files": 2,
+   "baseline": {
+    "file": "root/fuzzing/exiv2-trunk/src/value.cpp",
+    "symbol": "Exiv2::StringValueBase::read",
+    "start_line": 302,
+    "end_line": 302,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "jq.cve-2023-50246",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "src/decNumber/decNumber.c",
+    "symbol": "decToString",
+    "start_line": 3764,
+    "end_line": 3764
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "njs.cve-2020-24348",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/yongheng/njs/src/njs_json.c",
+    "symbol": "njs_json_stringify_iterator",
+    "start_line": 1317,
+    "end_line": 1317,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libdwarf.cve-2022-34299",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "libdwarf/SRC/src/lib/libdwarf/dwarf_form.c",
+    "symbol": "dwarf_global_formref_b",
+    "start_line": 840,
+    "end_line": 840,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "gpac.cve-2023-46927",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "afltest/gpac/src/isomedia/isom_write.c",
+    "symbol": "gf_isom_use_compact_size",
+    "start_line": 3403,
+    "end_line": 3403,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "php.cve-2017-12933",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/cyoung/php/afl/php-src-php-7.1.2RC1/ext/standard/var.c",
+    "symbol": "zif_unserialize",
+    "start_line": 1114,
+    "end_line": 1114,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "exiv2.cve-2017-18005",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/ksg/exiv2/src/value.cpp",
+    "symbol": "Exiv2::DataValue::toLong",
+    "start_line": 250,
+    "end_line": 250,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "matio.cve-2019-9037",
+   "n_gold_files": 1,
+   "baseline": null
+  },
+  {
+   "instance_id": "imagemagick.cve-2019-13310",
+   "n_gold_files": 2,
+   "baseline": {
+    "file": "MagickCore/memory.c",
+    "symbol": "AcquireMagickMemory",
+    "start_line": 478,
+    "end_line": 478,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "qpdf.cve-2021-36978",
+   "n_gold_files": 5,
+   "baseline": {
+    "file": "libqpdf/Pl_ASCII85Decoder.cc",
+    "symbol": "Pl_ASCII85Decoder::write",
+    "start_line": 85,
+    "end_line": 85
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "imagemagick.cve-2019-13296",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "MagickCore/memory.c",
+    "symbol": "AcquireMagickMemory",
+    "start_line": 478,
+    "end_line": 478,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "readstat.cve-2018-5698",
+   "n_gold_files": 7,
+   "baseline": null
+  },
+  {
+   "instance_id": "njs.cve-2022-43284",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/q1iq/Documents/origin/njs/src/njs_scope.h",
+    "symbol": "njs_scope_valid_value",
+    "start_line": 85,
+    "end_line": 85,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "imagemagick.cve-2019-17541",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "MagickCore/string.c",
+    "symbol": "DestroyStringInfo",
+    "start_line": 853,
+    "end_line": 853,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "openjpeg.cve-2016-10507",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "openjpeg/src/bin/jp2/convertbmp.c",
+    "symbol": "bmp24toimage",
+    "start_line": 150,
+    "end_line": 150,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "openjpeg.cve-2021-3575",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/yuawn/fuzz-targets/openjpeg/reproduce/openjpeg/src/bin/common/color.c",
+    "symbol": "sycc420_to_rgb",
+    "start_line": 379,
+    "end_line": 379,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "exiv2.cve-2017-14864",
+   "n_gold_files": 2,
+   "baseline": {
+    "file": "root/fuzzing/exiv2-trunk/src/types.cpp",
+    "symbol": "Exiv2::getULong",
+    "start_line": 246,
+    "end_line": 246,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "openjpeg.cve-2017-14041",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "var/tmp/portage/media-libs/openjpeg-9999/work/openjpeg-9999/src/bin/jp2/convert.c",
+    "symbol": "pgxtoimage",
+    "start_line": 1188,
+    "end_line": 1188,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "upx.cve-2023-23457",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/chen/upx/src/p_lx_elf.cpp",
+    "symbol": "PackLinuxElf64::invert_pt_dynamic",
+    "start_line": 5783,
+    "end_line": 5783,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "imagemagick.cve-2017-11540",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "MagickCore/pixel-accessor.h",
+    "symbol": "GetPixelIndex",
+    "start_line": 191,
+    "end_line": 191,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libjpeg-turbo.cve-2020-13790",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "libjpeg-turbo/rdppm.c",
+    "symbol": "get_rgb_row",
+    "start_line": 434,
+    "end_line": 434,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "imagemagick.cve-2018-5246",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/ubuntu/ImageMagick/./MagickCore/memory-private.h",
+    "symbol": "AcquireCriticalMemory",
+    "start_line": 57,
+    "end_line": 57,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "mruby.cve-2022-1212",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/fuzz/mruby/src/string.c",
+    "symbol": "str_escape",
+    "start_line": 1238,
+    "end_line": 1238,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "upx.cve-2020-27787",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/upx_tc/upx_debug_2/src/miniacc.h",
+    "symbol": "acc_ua_get_le64",
+    "start_line": 6208,
+    "end_line": 6208,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "gpac.cve-2024-50664",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "isomedia/sample_descs.c",
+    "symbol": "gf_isom_new_mpha_description",
+    "start_line": 1799,
+    "end_line": 1799,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libredwg.cve-2020-6612",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "src/decode_r2007.c",
+    "symbol": "copy_compressed_bytes",
+    "start_line": 233,
+    "end_line": 233,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libmodbus.cve-2022-0367",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "XXX/src/libmodbus/build/src/../../src/modbus.c",
+    "symbol": "modbus_reply",
+    "start_line": 980,
+    "end_line": 980,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "faad2.cve-2021-32278",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/seviezhou/faad2/libfaad/lt_predict.c",
+    "symbol": "lt_prediction",
+    "start_line": 108,
+    "end_line": 108,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "matio.cve-2020-19497",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "src/mat5.c",
+    "symbol": "Mat_VarReadNextInfo5",
+    "start_line": 4983,
+    "end_line": 4983,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "njs.cve-2023-27730",
+   "n_gold_files": 8,
+   "baseline": {
+    "file": "root/njs/src/njs_lvlhsh.c",
+    "symbol": "njs_lvlhsh_find",
+    "start_line": 176,
+    "end_line": 176,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "imagemagick.cve-2019-13302",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "MagickCore/fourier.c",
+    "symbol": "ComplexImages",
+    "start_line": 305,
+    "end_line": 305,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "mruby.cve-2018-12249",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "class.c",
+    "symbol": "mrb_class_real",
+    "start_line": 1768,
+    "end_line": 1768,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "md4c.cve-2020-26148",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/fcambus/md4c-release-0.4.5/src/md4c.c",
+    "symbol": "md_push_block_bytes",
+    "start_line": 4848,
+    "end_line": 4848,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "matio.cve-2019-20018",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/matio_asan/src/mat5.c",
+    "symbol": "ReadNextCell",
+    "start_line": 1001,
+    "end_line": 1001,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "njs.cve-2019-13617",
+   "n_gold_files": 2,
+   "baseline": {
+    "file": "home/fuzz/Desktop/fuzzproject/njs/nxt/nxt_sprintf.c",
+    "symbol": "nxt_vsprintf",
+    "start_line": 429,
+    "end_line": 429,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": false
+  },
+  {
+   "instance_id": "njs.cve-2022-27007",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/p1umer/Documents/origin/njs/src/njs_function.c",
+    "symbol": "njs_function_frame_alloc",
+    "start_line": 574,
+    "end_line": 574,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "gpac.cve-2023-4754",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "scene_manager/swf_parse.c",
+    "symbol": "swf_def_font",
+    "start_line": 1449,
+    "end_line": 1449,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "gpac.cve-2021-32437",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "media_tools/isom_hinter.c",
+    "symbol": "gf_hinter_finalize",
+    "start_line": 1236,
+    "end_line": 1236,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "gpac.cve-2023-4755",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "filters/mux_isom.c",
+    "symbol": "mp4_mux_process_fragmented",
+    "start_line": 6634,
+    "end_line": 6634,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "gpac.cve-2021-32440",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "isomedia/media_odf.c",
+    "symbol": "Media_RewriteODFrame",
+    "start_line": 135,
+    "end_line": 135,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "gpac.cve-2023-42298",
+   "n_gold_files": 1,
+   "baseline": null
+  },
+  {
+   "instance_id": "libredwg.cve-2020-21817",
+   "n_gold_files": 2,
+   "baseline": {
+    "file": "programs/escape.c",
+    "symbol": "htmlescape",
+    "start_line": 29,
+    "end_line": 29,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "gpac.cve-2023-41000",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "root/fuzz/gpac/src/utils/bitstream.c",
+    "symbol": "BS_ReadByte",
+    "start_line": 458,
+    "end_line": 458,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "php.cve-2018-12882",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "root/php-7.2.6/main/streams/streams.c",
+    "symbol": "_php_stream_free",
+    "start_line": 373,
+    "end_line": 373,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "exiv2.cve-2018-17229",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/marsman/Desktop/crashana/exiv2/exiv2-b6a8d39613a28603a989bd5278798db8a54eeb1e/src/types.cpp",
+    "symbol": "Exiv2::d2Data",
+    "start_line": 473,
+    "end_line": 473,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libredwg.cve-2021-42585",
+   "n_gold_files": 2,
+   "baseline": {
+    "file": "root/fuzz/libredwg/src/decode_r2007.c",
+    "symbol": "copy_compressed_bytes",
+    "start_line": 332,
+    "end_line": 332,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "gpac.cve-2023-4681",
+   "n_gold_files": 3,
+   "baseline": {
+    "file": "media_tools/mpeg2_ps.c",
+    "symbol": "file_read_bytes",
+    "start_line": 163,
+    "end_line": 163,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "exiv2.cve-2018-17230",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/marsman/Desktop/crashana/exiv2/exiv2-b6a8d39613a28603a989bd5278798db8a54eeb1e/src/types.cpp",
+    "symbol": "Exiv2::ul2Data",
+    "start_line": 383,
+    "end_line": 383,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libredwg.cve-2023-36273",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "libredwg/src/bits.c",
+    "symbol": "bit_calc_CRC",
+    "start_line": 3456,
+    "end_line": 3456,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "gpac.cve-2024-50665",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "gpac/src/isomedia/drm_sample.c",
+    "symbol": "isom_cenc_get_sai_by_saiz_saio",
+    "start_line": 1562,
+    "end_line": 1562,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "gpac.cve-2023-46001",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "root/gpac/src/isomedia/isom_read.c",
+    "symbol": "gf_isom_get_user_data",
+    "start_line": 2807,
+    "end_line": 2807,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "upx.cve-2017-15056",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/bm/Desktop/Origin/upx/src/./bele.h",
+    "symbol": "get_le32",
+    "start_line": 164,
+    "end_line": 164,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "imagemagick.cve-2019-13311",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "MagickCore/memory.c",
+    "symbol": "AcquireMagickMemory",
+    "start_line": 478,
+    "end_line": 478,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "md4c.cve-2018-11545",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/ubuntu/fuzz/test/md4c/md4c/md4c.c",
+    "symbol": "md_merge_lines",
+    "start_line": 878,
+    "end_line": 878,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "imagemagick.cve-2019-13297",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "MagickCore/threshold.c",
+    "symbol": "AdaptiveThresholdImage",
+    "start_line": 328,
+    "end_line": 328,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "md4c.cve-2021-30027",
+   "n_gold_files": 2,
+   "baseline": {
+    "file": "home/bsdboy/md/md4c-release-0.4.7/src/md4c.c",
+    "symbol": "md_analyze_line",
+    "start_line": 5985,
+    "end_line": 5985,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libredwg.cve-2020-23861",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "root/libredwg-0.10.1/src/decode_r2007.c",
+    "symbol": "read_system_page",
+    "start_line": 666,
+    "end_line": 666,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "imagemagick.cve-2022-0284",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "MagickCore/pixel-accessor.h",
+    "symbol": "GetPixelAlpha",
+    "start_line": 59,
+    "end_line": 59,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "gpac.cve-2023-4758",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "media_tools/avilib.c",
+    "symbol": "avi_parse_input_file",
+    "start_line": 2083,
+    "end_line": 2083,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libplist.cve-2017-5545",
+   "n_gold_files": 1,
+   "baseline": null
+  },
+  {
+   "instance_id": "libredwg.cve-2020-21818",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "programs/escape.c",
+    "symbol": "htmlescape",
+    "start_line": 48,
+    "end_line": 48,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libredwg.cve-2022-33034",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "testcase/libredwg/src/decode_r2007.c",
+    "symbol": "copy_bytes",
+    "start_line": 228,
+    "end_line": 228,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "imagemagick.cve-2019-13298",
+   "n_gold_files": 2,
+   "baseline": {
+    "file": "MagickCore/pixel-accessor.h",
+    "symbol": "SetPixelViaPixelInfo",
+    "start_line": 804,
+    "end_line": 804,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "imagemagick.cve-2017-18022",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/ubuntu/ImageMagick/./MagickCore/memory-private.h",
+    "symbol": "AcquireCriticalMemory",
+    "start_line": 57,
+    "end_line": 57,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "yara.cve-2016-10211",
+   "n_gold_files": 2,
+   "baseline": {
+    "file": "XYZ/yara/libyara/parser.c",
+    "symbol": "yr_parser_lookup_loop_variable",
+    "start_line": 282,
+    "end_line": 282,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "mruby.cve-2022-0570",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/alkyne/mruby-debug/src/vm.c",
+    "symbol": "mrb_f_send",
+    "start_line": 695,
+    "end_line": 695,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "matio.cve-2019-20017",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/matio_asan/src/mat5.c",
+    "symbol": "Mat_VarReadNextInfo5",
+    "start_line": 4915,
+    "end_line": 4915,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "matio.cve-2019-9035",
+   "n_gold_files": 3,
+   "baseline": null
+  },
+  {
+   "instance_id": "libxls.cve-2023-38855",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "libxls/src/xls.c",
+    "symbol": "xls_parseWorkBook",
+    "start_line": 1015,
+    "end_line": 1015,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "mruby.cve-2022-0630",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "root/fuzz/mruby2/include/mruby.h",
+    "symbol": "mrb_check_frozen",
+    "start_line": 1418,
+    "end_line": 1418,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libredwg.cve-2020-21819",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "programs/escape.c",
+    "symbol": "htmlescape",
+    "start_line": 51,
+    "end_line": 51,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "gpac.cve-2021-32439",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "isomedia/stbl_write.c",
+    "symbol": "stbl_AppendSize",
+    "start_line": 1650,
+    "end_line": 1650,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libredwg.cve-2020-6609",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "src/decode_r2007.c",
+    "symbol": "read_pages_map",
+    "start_line": 1007,
+    "end_line": 1007,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "imagemagick.cve-2019-13306",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "coders/pnm.c",
+    "symbol": "WritePNMImage",
+    "start_line": 1902,
+    "end_line": 1902,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "imagemagick.cve-2017-11539",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "MagickCore/memory.c",
+    "symbol": "AcquireMagickMemory",
+    "start_line": 464,
+    "end_line": 464,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libheif.cve-2023-49464",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "libheif/libheif/uncompressed_image.cc",
+    "symbol": "UncompressedImageCodec::get_luma_bits_per_pixel_from_configuration_unci",
+    "start_line": 537,
+    "end_line": 537,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "yara.cve-2017-5924",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "XYZ/yara/libyara/compiler.c",
+    "symbol": "yr_compiler_destroy",
+    "start_line": 165,
+    "end_line": 165,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": false
+  },
+  {
+   "instance_id": "mruby.cve-2018-14337",
+   "n_gold_files": 2,
+   "baseline": null
+  },
+  {
+   "instance_id": "imagemagick.cve-2022-48541",
+   "n_gold_files": 11,
+   "baseline": {
+    "file": "MagickCore/memory.c",
+    "symbol": "AcquireMagickMemory",
+    "start_line": 531,
+    "end_line": 531,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "imagemagick.cve-2019-13300",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "MagickCore/statistic.c",
+    "symbol": ".omp_outlined._debug__.10",
+    "start_line": 654,
+    "end_line": 654,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libredwg.cve-2020-21827",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "src/decode.c",
+    "symbol": "read_2004_compressed_section",
+    "start_line": 2379,
+    "end_line": 2379,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "exiv2.cve-2017-17723",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/fuzz/exiv2/0.26/src/image.cpp",
+    "symbol": "Exiv2::Image::byteSwap4",
+    "start_line": 269,
+    "end_line": 269,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "imagemagick.cve-2019-13301",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "MagickCore/resize.c",
+    "symbol": ".omp_outlined._debug__.72",
+    "start_line": 2823,
+    "end_line": 2823,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libarchive.cve-2020-21674",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "libarchive/archive_string.c",
+    "symbol": "archive_string_append_from_wcs",
+    "start_line": 831,
+    "end_line": 831,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "exiv2.cve-2017-14857",
+   "n_gold_files": 2,
+   "baseline": {
+    "file": "root/fuzzing/exiv2/src/image.cpp",
+    "symbol": "Exiv2::Image::~Image",
+    "start_line": 173,
+    "end_line": 173,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "yara.cve-2023-40857",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "libyara/exec.c",
+    "symbol": "yr_execute_code",
+    "start_line": 1426,
+    "end_line": 1426,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "matio.cve-2019-9032",
+   "n_gold_files": 3,
+   "baseline": null
+  },
+  {
+   "instance_id": "mruby.cve-2022-1286",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "root/mruby/src/vm.c",
+    "symbol": "mrb_vm_exec",
+    "start_line": 1205,
+    "end_line": 1205,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "yaml-cpp.cve-2018-20574",
+   "n_gold_files": 2,
+   "baseline": null
+  },
+  {
+   "instance_id": "libredwg.cve-2021-42586",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "root/fuzz/libredwg/src/decode_r2007.c",
+    "symbol": "copy_bytes",
+    "start_line": 228,
+    "end_line": 228,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "openexr.cve-2020-16589",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/dungnguyen/gueb-testing/openexr/OpenEXR/IlmImf/ImfTiledOutputFile.cpp",
+    "symbol": "writeTileData",
+    "start_line": 458,
+    "end_line": 458,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": false
+  },
+  {
+   "instance_id": "openexr.cve-2020-16587",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/dungnguyen/gueb-testing/openexr/OpenEXR/IlmImf/ImfMultiPartInputFile.cpp",
+    "symbol": "Imf_2_3::MultiPartInputFile::Data::chunkOffsetReconstruction",
+    "start_line": 579,
+    "end_line": 579,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "openexr.cve-2020-16588",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/dungnguyen/gueb-testing/openexr/OpenEXR/exrmakepreview/makePreview.cpp",
+    "symbol": "generatePreview",
+    "start_line": 132,
+    "end_line": 132,
+    "raw_path": true
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "mruby.cve-2022-0326",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "home/faraday/mruby/src/variable.c",
+    "symbol": "iv_free",
+    "start_line": 232,
+    "end_line": 232,
+    "raw_path": true
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": false
+  }
+ ]
+}

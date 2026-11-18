@@ -1,0 +1,1343 @@
+{
+ "split": "oss",
+ "counts": {
+  "n": 100,
+  "with_crash_frame": 92,
+  "file_hit": 40,
+  "symbol_hit": 22,
+  "line_hit": 11,
+  "any_frame_file_hit": 84,
+  "multi_file_gold": 18,
+  "no_crash_frame": 8
+ },
+ "rows": [
+  {
+   "instance_id": "libxml2.ossfuzz-417247563",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "xmlIO.c",
+    "symbol": "xmlEscapeText",
+    "start_line": 362,
+    "end_line": 362
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libxml2.ossfuzz-424229869",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "parser.c",
+    "symbol": "xmlParsePubidLiteral",
+    "start_line": 4458,
+    "end_line": 4458
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libxml2.ossfuzz-424242614",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "parser.c",
+    "symbol": "xmlParsePubidLiteral",
+    "start_line": 4458,
+    "end_line": 4458
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libxml2.ossfuzz-424613315",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "parser.c",
+    "symbol": "xmlParsePubidLiteral",
+    "start_line": 4458,
+    "end_line": 4458
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libxml2.ossfuzz-424627219",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "parser.c",
+    "symbol": "xmlParsePubidLiteral",
+    "start_line": 4458,
+    "end_line": 4458
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libxml2.ossfuzz-424627221",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "parser.c",
+    "symbol": "xmlParsePubidLiteral",
+    "start_line": 4458,
+    "end_line": 4458
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libxml2.ossfuzz-42484562",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "valid.c",
+    "symbol": "xmlValidateRef",
+    "start_line": 6553,
+    "end_line": 6553
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libxml2.ossfuzz-42486565",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "xinclude.c",
+    "symbol": "xmlXIncludeIncludeNode",
+    "start_line": 2216,
+    "end_line": 2216
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libxml2.ossfuzz-42486665",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "xmlsave.c",
+    "symbol": "xmlNodeDumpOutputInternal",
+    "start_line": 897,
+    "end_line": 897
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libxml2.ossfuzz-42486772",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "xinclude.c",
+    "symbol": "xmlXIncludeIncludeNode",
+    "start_line": 2195,
+    "end_line": 2195
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libxml2.ossfuzz-42487244",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "xpath.c",
+    "symbol": "xmlXPathNodeSetAdd",
+    "start_line": 3760,
+    "end_line": 3760
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libxml2.ossfuzz-42487785",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "tree.c",
+    "symbol": "xmlStaticCopyNode",
+    "start_line": 4197,
+    "end_line": 4197
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libxml2.ossfuzz-42496802",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "parser.c",
+    "symbol": "xmlParseElement",
+    "start_line": 9963,
+    "end_line": 9963
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libxml2.ossfuzz-42509369",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "tree.c",
+    "symbol": "xmlFreeNodeList",
+    "start_line": 3733,
+    "end_line": 3733
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libxml2.ossfuzz-42510687",
+   "n_gold_files": 7,
+   "baseline": {
+    "file": "tree.c",
+    "symbol": "xmlFreeNodeList",
+    "start_line": 3750,
+    "end_line": 3750
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libxml2.ossfuzz-42517254",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "xinclude.c",
+    "symbol": "xmlXIncludeCopyXPointer",
+    "start_line": 1162,
+    "end_line": 1162
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libxml2.ossfuzz-42522440",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "HTMLparser.c",
+    "symbol": "htmlParseHTMLAttribute",
+    "start_line": 2761,
+    "end_line": 2761
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libxml2.ossfuzz-42522712",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "xmlstring.c",
+    "symbol": "xmlStrndup",
+    "start_line": 53,
+    "end_line": 53
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libxml2.ossfuzz-42525197",
+   "n_gold_files": 3,
+   "baseline": {
+    "file": "dict.c",
+    "symbol": "xmlDictComputeFastKey",
+    "start_line": 438,
+    "end_line": 438
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": false
+  },
+  {
+   "instance_id": "libxml2.ossfuzz-42525210",
+   "n_gold_files": 3,
+   "baseline": {
+    "file": "HTMLparser.c",
+    "symbol": "htmlParseHTMLAttribute",
+    "start_line": 2759,
+    "end_line": 2759
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": false
+  },
+  {
+   "instance_id": "libxml2.ossfuzz-42527008",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "error.c",
+    "symbol": "__xmlRaiseError",
+    "start_line": 529,
+    "end_line": 529
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libxml2.ossfuzz-42528943",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "parserInternals.c",
+    "symbol": "xmlCopyCharMultiByte",
+    "start_line": 1095,
+    "end_line": 1095
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libxml2.ossfuzz-42528947",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "parser.c",
+    "symbol": "xmlParseCommentComplex",
+    "start_line": 4981,
+    "end_line": 4981
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libxml2.ossfuzz-42528949",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "parserInternals.c",
+    "symbol": "xmlCopyCharMultiByte",
+    "start_line": 1095,
+    "end_line": 1095
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libxml2.ossfuzz-42528951",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "parserInternals.c",
+    "symbol": "xmlCopyCharMultiByte",
+    "start_line": 1095,
+    "end_line": 1095
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libxml2.ossfuzz-42528994",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "parserInternals.c",
+    "symbol": "xmlCopyCharMultiByte",
+    "start_line": 1095,
+    "end_line": 1095
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libxml2.ossfuzz-42528997",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "parser.c",
+    "symbol": "xmlParseCommentComplex",
+    "start_line": 4981,
+    "end_line": 4981
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libxml2.ossfuzz-42529030",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "error.c",
+    "symbol": "xmlParserPrintFileContextInternal",
+    "start_line": 210,
+    "end_line": 210
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libxml2.ossfuzz-42531092",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "dict.c",
+    "symbol": "xmlDictHashName",
+    "start_line": 471,
+    "end_line": 471
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": false
+  },
+  {
+   "instance_id": "libxml2.ossfuzz-42531481",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "tree.c",
+    "symbol": "xmlStaticCopyNode",
+    "start_line": 4272,
+    "end_line": 4272
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "libxml2.ossfuzz-42537493",
+   "n_gold_files": 3,
+   "baseline": {
+    "file": "encoding.c",
+    "symbol": "xmlCharEncCloseFunc",
+    "start_line": 1920,
+    "end_line": 1920
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "matio.ossfuzz-414204706",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "src/mat.c",
+    "symbol": "Mat_VarPrint",
+    "start_line": 2478,
+    "end_line": 2478
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "matio.ossfuzz-42477601",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "src/mat.c",
+    "symbol": "Mat_VarPrint",
+    "start_line": 1968,
+    "end_line": 1968
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "matio.ossfuzz-42477894",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "src/mat5.c",
+    "symbol": "Mat_VarReadNextInfo5",
+    "start_line": 4915,
+    "end_line": 4915
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "matio.ossfuzz-42477896",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "src/mat.c",
+    "symbol": "Mat_VarFree",
+    "start_line": 1546,
+    "end_line": 1546
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": false
+  },
+  {
+   "instance_id": "matio.ossfuzz-42535678",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "src/mat.c",
+    "symbol": "Mat_VarPrint",
+    "start_line": 2448,
+    "end_line": 2448
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "mruby.ossfuzz-401868632",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "src/range.c",
+    "symbol": "range_num_to_a",
+    "start_line": 403,
+    "end_line": 403
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "mruby.ossfuzz-42497373",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "src/fmt_fp.c",
+    "symbol": "mrb_format_float",
+    "start_line": 194,
+    "end_line": 194
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "mruby.ossfuzz-42497416",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "src/array.c",
+    "symbol": "mrb_ary_shift_m",
+    "start_line": 614,
+    "end_line": 614
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "mruby.ossfuzz-42497881",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "mrbgems/mruby-sprintf/src/sprintf.c",
+    "symbol": "mrb_str_format",
+    "start_line": 841,
+    "end_line": 841
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "mruby.ossfuzz-42498567",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "mrbgems/mruby-compiler/core/codegen.c",
+    "symbol": "dispatch",
+    "start_line": 573,
+    "end_line": 573
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "mruby.ossfuzz-42501420",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "src/value_array.h",
+    "symbol": "value_move",
+    "start_line": 20,
+    "end_line": 20
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "mruby.ossfuzz-42503233",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "src/vm.c",
+    "symbol": "mrb_funcall_argv",
+    "start_line": 541,
+    "end_line": 541
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "mruby.ossfuzz-42503239",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "src/error.c",
+    "symbol": "mrb_make_exception",
+    "start_line": 514,
+    "end_line": 514
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "mruby.ossfuzz-42503243",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "src/variable.c",
+    "symbol": "const_get",
+    "start_line": 791,
+    "end_line": 791
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "mruby.ossfuzz-42511322",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "src/vm.c",
+    "symbol": "stack_copy",
+    "start_line": 101,
+    "end_line": 101
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "mruby.ossfuzz-42513157",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "mrbgems/mruby-bigint/core/bigint.c",
+    "symbol": "mpz_mdiv",
+    "start_line": 529,
+    "end_line": 529
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "mruby.ossfuzz-42513165",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "mrbgems/mruby-bigint/core/bigint.c",
+    "symbol": "mpz_init_set_str",
+    "start_line": 665,
+    "end_line": 665
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "mruby.ossfuzz-42513169",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "mrbgems/mruby-bigint/core/bigint.c",
+    "symbol": "mpz_cmp",
+    "start_line": 613,
+    "end_line": 613
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "mruby.ossfuzz-42513630",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "mrbgems/mruby-bigint/core/bigint.c",
+    "symbol": "mpz_get_int",
+    "start_line": 749,
+    "end_line": 749
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "mruby.ossfuzz-42513783",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "mrbgems/mruby-bigint/core/bigint.c",
+    "symbol": "urshift",
+    "start_line": 374,
+    "end_line": 374
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "mruby.ossfuzz-42517942",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "src/string.c",
+    "symbol": "str_init_embed",
+    "start_line": 73,
+    "end_line": 73
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "mruby.ossfuzz-42532420",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "src/string.c",
+    "symbol": "mrb_memsearch_ss",
+    "start_line": 609,
+    "end_line": 609
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "mruby.ossfuzz-42532953",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "src/string.c",
+    "symbol": "memsearch_swar",
+    "start_line": 647,
+    "end_line": 647
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "mruby.ossfuzz-42538578",
+   "n_gold_files": 0,
+   "baseline": {
+    "file": "src/vm.c",
+    "symbol": "mrb_vm_exec",
+    "start_line": 2672,
+    "end_line": 2672
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": false
+  },
+  {
+   "instance_id": "mupdf.ossfuzz-42510575",
+   "n_gold_files": 1,
+   "baseline": null
+  },
+  {
+   "instance_id": "mupdf.ossfuzz-42520029",
+   "n_gold_files": 1,
+   "baseline": null
+  },
+  {
+   "instance_id": "mupdf.ossfuzz-42520056",
+   "n_gold_files": 1,
+   "baseline": null
+  },
+  {
+   "instance_id": "mupdf.ossfuzz-42524643",
+   "n_gold_files": 2,
+   "baseline": null
+  },
+  {
+   "instance_id": "mupdf.ossfuzz-42524877",
+   "n_gold_files": 1,
+   "baseline": null
+  },
+  {
+   "instance_id": "mupdf.ossfuzz-42524969",
+   "n_gold_files": 1,
+   "baseline": null
+  },
+  {
+   "instance_id": "mupdf.ossfuzz-42530704",
+   "n_gold_files": 1,
+   "baseline": null
+  },
+  {
+   "instance_id": "mupdf.ossfuzz-42537171",
+   "n_gold_files": 1,
+   "baseline": null
+  },
+  {
+   "instance_id": "njs.ossfuzz-414642181",
+   "n_gold_files": 2,
+   "baseline": {
+    "file": "src/njs_string.c",
+    "symbol": "njs_string_prop",
+    "start_line": 211,
+    "end_line": 211
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "njs.ossfuzz-42523579",
+   "n_gold_files": 2,
+   "baseline": {
+    "file": "src/njs_scope.h",
+    "symbol": "njs_scope_value",
+    "start_line": 82,
+    "end_line": 82
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": false
+  },
+  {
+   "instance_id": "njs.ossfuzz-42528868",
+   "n_gold_files": 2,
+   "baseline": {
+    "file": "src/njs_chb.c",
+    "symbol": "njs_chb_append0",
+    "start_line": 25,
+    "end_line": 25
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": false
+  },
+  {
+   "instance_id": "openexr.ossfuzz-42511621",
+   "n_gold_files": 5,
+   "baseline": {
+    "file": "src/lib/OpenEXRCore/unpack.c",
+    "symbol": "generic_unpack",
+    "start_line": 1168,
+    "end_line": 1168
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "openexr.ossfuzz-42517450",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "src/lib/OpenEXRCore/internal_huf.c",
+    "symbol": "fasthuf_read_bits",
+    "start_line": 1186,
+    "end_line": 1186
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "openexr.ossfuzz-42524709",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "src/lib/OpenEXRCore/compression.c",
+    "symbol": "exr_uncompress_buffer",
+    "start_line": 138,
+    "end_line": 138
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "openexr.ossfuzz-42524837",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "src/lib/OpenEXRCore/internal_huf.c",
+    "symbol": "readUInt",
+    "start_line": 993,
+    "end_line": 993
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "openexr.ossfuzz-42538425",
+   "n_gold_files": 4,
+   "baseline": {
+    "file": "src/lib/OpenEXRCore/validation.c",
+    "symbol": "internal_exr_validate_shared_attrs",
+    "start_line": 720,
+    "end_line": 720
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "openexr.ossfuzz-42538530",
+   "n_gold_files": 4,
+   "baseline": {
+    "file": "src/lib/OpenEXRCore/validation.c",
+    "symbol": "internal_exr_validate_shared_attrs",
+    "start_line": 740,
+    "end_line": 740
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "php.ossfuzz-42485988",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "Zend/zend_ast.c",
+    "symbol": "zend_ast_export_ex",
+    "start_line": 2180,
+    "end_line": 2180
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "php.ossfuzz-42487317",
+   "n_gold_files": 4,
+   "baseline": {
+    "file": "Zend/zend_execute.h",
+    "symbol": "zend_assign_to_variable",
+    "start_line": 130,
+    "end_line": 130
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "php.ossfuzz-42487401",
+   "n_gold_files": 2,
+   "baseline": {
+    "file": "Zend/zend_generators.c",
+    "symbol": "zend_generator_search_multi_children_node",
+    "start_line": 527,
+    "end_line": 527
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "php.ossfuzz-42488320",
+   "n_gold_files": 4,
+   "baseline": {
+    "file": "Zend/zend_execute.c",
+    "symbol": "zend_assign_to_string_offset",
+    "start_line": 1601,
+    "end_line": 1601
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "php.ossfuzz-42490125",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "Zend/zend_hash.c",
+    "symbol": "zend_hash_find_bucket",
+    "start_line": 652,
+    "end_line": 652
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "php.ossfuzz-42491394",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "Zend/zend_types.h",
+    "symbol": "zval_get_type",
+    "start_line": 553,
+    "end_line": 553
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "php.ossfuzz-42491690",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "ext/hash/xxhash/xxhash.h",
+    "symbol": "XXH_memcpy",
+    "start_line": 916,
+    "end_line": 916
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "php.ossfuzz-42491827",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "ext/hash/xxhash/xxhash.h",
+    "symbol": "XXH_memcpy",
+    "start_line": 916,
+    "end_line": 916
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "php.ossfuzz-42491908",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "ext/hash/xxhash/xxhash.h",
+    "symbol": "XXH_memcpy",
+    "start_line": 916,
+    "end_line": 916
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "php.ossfuzz-42498732",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "Zend/zend_types.h",
+    "symbol": "zend_gc_addref",
+    "start_line": 1161,
+    "end_line": 1161
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "php.ossfuzz-42500752",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "Zend/zend_string.h",
+    "symbol": "zend_string_release",
+    "start_line": 319,
+    "end_line": 319
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "php.ossfuzz-42501106",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "Zend/zend_string.h",
+    "symbol": "zend_string_release",
+    "start_line": 319,
+    "end_line": 319
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "php.ossfuzz-42501725",
+   "n_gold_files": 3,
+   "baseline": {
+    "file": "Zend/zend_vm_execute.h",
+    "symbol": "ZEND_FE_FETCH_RW_SPEC_VAR_HANDLER",
+    "start_line": 22097,
+    "end_line": 22097
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "php.ossfuzz-42515276",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "ext/date/php_date.c",
+    "symbol": "php_date_initialize",
+    "start_line": 2330,
+    "end_line": 2330
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "php.ossfuzz-42515716",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "ext/date/lib/timelib.c",
+    "symbol": "timelib_error_container_dtor",
+    "start_line": 159,
+    "end_line": 159
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "php.ossfuzz-42527736",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "ext/standard/file.c",
+    "symbol": "php_fgetcsv",
+    "start_line": 2150,
+    "end_line": 2150
+   },
+   "file_hit": true,
+   "symbol_hit": true,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "php.ossfuzz-427814456",
+   "n_gold_files": 0,
+   "baseline": {
+    "file": "main/spprintf.c",
+    "symbol": "xbuf_format_converter",
+    "start_line": 555,
+    "end_line": 555
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": false
+  },
+  {
+   "instance_id": "upx.ossfuzz-383194079",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "src/bele.h",
+    "symbol": "get_ne32",
+    "start_line": 132,
+    "end_line": 132
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "upx.ossfuzz-402200343",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "src/util/../bele.h",
+    "symbol": "get_ne64",
+    "start_line": 145,
+    "end_line": 145
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "upx.ossfuzz-42531653",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "src/util/../bele.h",
+    "symbol": "get_ne32<void, void>",
+    "start_line": 117,
+    "end_line": 117
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "upx.ossfuzz-42531668",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "src/bele.h",
+    "symbol": "get_ne32<LE32, LE32>",
+    "start_line": 117,
+    "end_line": 117
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "upx.ossfuzz-42531672",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "src/util/../bele.h",
+    "symbol": "get_ne64<void, void>",
+    "start_line": 124,
+    "end_line": 124
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "upx.ossfuzz-42532260",
+   "n_gold_files": 2,
+   "baseline": {
+    "file": "src/p_lx_elf.cpp",
+    "symbol": "PackLinuxElf64::elf_lookup",
+    "start_line": 8324,
+    "end_line": 8324
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "upx.ossfuzz-42532507",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "src/p_lx_elf.cpp",
+    "symbol": "PackLinuxElf32::adjABS",
+    "start_line": 3846,
+    "end_line": 3846
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "upx.ossfuzz-430110068",
+   "n_gold_files": 1,
+   "baseline": {
+    "file": "src/util/../bele.h",
+    "symbol": "get_ne32",
+    "start_line": 133,
+    "end_line": 133
+   },
+   "file_hit": false,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "wasm3.ossfuzz-42495624",
+   "n_gold_files": 2,
+   "baseline": {
+    "file": "source/m3_compile.c",
+    "symbol": "Compile_BlockStatements",
+    "start_line": 2210,
+    "end_line": 2210
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "wasm3.ossfuzz-42495805",
+   "n_gold_files": 5,
+   "baseline": {
+    "file": "source/m3_parse.c",
+    "symbol": "ParseSection_Type",
+    "start_line": 99,
+    "end_line": 99
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": false,
+   "any_frame_file_hit": true
+  },
+  {
+   "instance_id": "wasm3.ossfuzz-42496369",
+   "n_gold_files": 2,
+   "baseline": {
+    "file": "source/m3_compile.c",
+    "symbol": "Compile_ExtendedOpcode",
+    "start_line": 1120,
+    "end_line": 1120
+   },
+   "file_hit": true,
+   "symbol_hit": false,
+   "line_hit": true,
+   "any_frame_file_hit": true
+  }
+ ]
+}

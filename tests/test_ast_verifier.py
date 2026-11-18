@@ -114,3 +114,13 @@ def test_crash_signature_same_vs_shifted():
     s1 = crash_signature(ASAN, "/src/proj")
     s2 = crash_signature(ASAN.replace("parse", "other"), "/src/proj")
     assert s1 != s2 and s1[1][:1] == ("parse",)
+
+
+def test_crash_frame_baseline_fallback_foreign_build_path():
+    from secb_strict.ast_verifier import crash_frame_baseline, same_file
+    rep = ("    #0 0x1 in njs_vmcode_interpreter /home/u/origin/njs_f65981b/src/njs_vmcode.c:802:27\n"
+           "    #1 0x2 in main /home/u/origin/njs_f65981b/src/njs_shell.c:9:1\n")
+    b = crash_frame_baseline(rep, "/src/njs")
+    assert b and b["symbol"] == "njs_vmcode_interpreter" and b["start_line"] == 802
+    assert same_file(b["file"], "src/njs_vmcode.c")
+    assert not same_file("x/aenjs_vmcode.c", "njs_vmcode.c")

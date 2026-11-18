@@ -252,7 +252,7 @@ def score_prediction(
     pred_lines = set(range(ps, pe + 1))
     best_iou = 0.0
     for g in gold:
-        if _norm_file(g.file) != pf:
+        if not same_file(_norm_file(g.file), pf):
             continue
         sc.file_hit = True
         if psym and _bare(g.symbol) == psym:
@@ -273,6 +273,9 @@ def score_prediction(
 # --------------------------------------------------------------------------- #
 _FRAME_RE = re.compile(
     r"^\s*#(\d+)\s+0x[0-9a-fA-F]+\s+in\s+(.+?)\s+(\S+?):(\d+)(?::\d+)?\s*$", re.M
+)
+_RUNTIME_RE = re.compile(
+    r"libsanitizer|compiler-rt|/asan/|/ubsan/|asan_|ubsan_|sanitizer_common|interceptor", re.I
 )
 _SYSTEM_PREFIXES = ("/usr/", "/lib/", "/src/llvm", "/llvm-project/", "/build/glibc")
 
@@ -296,11 +299,29 @@ def crash_frame_baseline(report: str, work_dir: str) -> Optional[dict]:
     skill must beat this baseline to mean anything.
     """
     wd = work_dir.rstrip("/") + "/"
-    for f in sanitizer_frames(report, work_dir):
-        if f["file"].startswith(wd) and not f["file"].startswith(_SYSTEM_PREFIXES):
+    frames = sanitizer_frames(report, work_dir)
+    for f in frames:
+        if (f["file"].startswith(wd) and not f["file"].startswith(_SYSTEM_PREFIXES)
+                and not _RUNTIME_RE.search(f["file"])):
             return {"file": _norm_file(f["file"], work_dir), "symbol": f["symbol"],
                     "start_line": f["line"], "end_line": f["line"]}
+    # Fallback: many dataset reports (esp. the CVE split) were captured on the
+    # reporter's machine, e.g. /home/<user>/.../proj_<hash>/src/x.c, not under
+    # work_dir. Take the first non-system frame in a C/C++ source file and keep
+    # the raw path; callers compare with `same_file` (path-suffix match).
+    for f in frames:
+        if f["file"].startswith(_SYSTEM_PREFIXES) or _RUNTIME_RE.search(f["file"]):
+            continue
+        if PurePosixPath(f["file"]).suffix.lower() in _SRC_EXT:
+            return {"file": f["file"].lstrip("./"), "symbol": f["symbol"],
+                    "start_line": f["line"], "end_line": f["line"], "raw_path": True}
     return None
+
+
+def same_file(a: str, b: str) -> bool:
+    """Exact match, or one path is a '/'-boundary suffix of the other."""
+    a, b = a.lstrip("./"), b.lstrip("./")
+    return a == b or a.endswith("/" + b) or b.endswith("/" + a)
 
 
 def crash_signature(report: str, work_dir: str, depth: int = 3) -> tuple:
