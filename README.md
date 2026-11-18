@@ -130,7 +130,22 @@ not a leaderboard claim.
 See the measured H3-baseline results at the top; agent arms are not yet run. → `results/metrics_comparison.csv`
 
 ## 6. Findings
-_Pending. Write only what the data supports; H1 may well come out null._
+
+Status per hypothesis, based only on what has been measured.
+
+| # | Status | What the data says |
+|---|--------|--------------------|
+| H1 leakage | **Not tested** | Needs agent trajectories (Docker + model). No evidence either way; may still come out null. |
+| H2 localisation vs. repair | **Not tested** | Needs the `two_stage` vs. `two_stage_orc` arms. |
+| H3 crash-frame baseline | **Baseline measured; comparison pending** | Top in-repo crash frame hits a gold-patch file in 52.9% (95% CI 47.0–58.7%) of 278 instances, and a gold file appears *somewhere* in the stack in 90.6% (86.6–93.5%). Function-level hit is 31.3% (lower bound) and line-level 18.0%. Whether an agent's Stage A beats this is **not yet known**. |
+| H4 oracle blind spots | **Not tested** | Needs agent patches plus differential review. |
+
+**Supported by the data so far**
+1. File-level localisation is largely free on stock SEC-bench: the sanitizer report in the prompt already names a gold-patch file in about 9 of 10 instances.
+2. Precision falls quickly below file level (53% → 31% → 18% for file, function, line). A localiser's skill would show at function and line level, not file level.
+3. The CVE split (file-hit 57.5%) is easier to localise from the crash frame than OSS (43.5%). The CIs overlap partly (50.3–64.4% vs. 33.8–53.7%), so treat this as suggestive.
+
+**Not supported / not claimed:** any statement about agent pass rates, leakage, or oracle false-passes.
 
 ## Known limitations
 - Gate 1 file matching is path-suffix based (`same_file`), so a bare-basename prediction can match a deeper gold path.
