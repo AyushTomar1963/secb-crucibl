@@ -1,0 +1,24 @@
+[project]
+name = "secbench-strict"
+version = "0.0.1"
+requires-python = ">=3.12"
+dependencies = [
+  "tree-sitter>=0.23",
+  "tree-sitter-c",
+  "tree-sitter-cpp",
+  "docker",
+  "datasets",
+  "jinja2",
+]
+
+[project.optional-dependencies]
+agent = ["smolagents[litellm] @ git+https://github.com/SEC-bench/smolagents.git"]
+dev = ["pytest"]
+
+[tool.setuptools]
+packages = ["secb_strict"]
+
+# Upstream SEC-bench (provides `secb.evaluator.utils`) is installed separately:
+#   git clone --recurse-submodules https://github.com/SEC-bench/SEC-bench && pip install -r SEC-bench/requirements.txt
+# and put its checkout on PYTHONPATH. It is not on PyPI, and its top-level package is also
+# called `secb`, which is why this repo's package is `secb_strict`.

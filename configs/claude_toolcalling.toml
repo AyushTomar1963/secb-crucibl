@@ -1,0 +1,29 @@
+# smolagents ToolCallingAgent (JSON tool calls). Identical to claude_codeagent.toml
+# except [agent].type, so scaffold effects can be separated from sandbox effects.
+
+[model]
+type = "LiteLLMModel"
+model_id = "anthropic/claude-sonnet-5-5"
+temperature = 0.0
+
+[agent]
+type = "ToolCallingAgent"
+max_steps = 30
+tools = ["cmd"]
+
+[dataset]
+name = "SEC-bench/SEC-bench"
+split = "cve"
+instance_ids = []
+
+[docker]
+image_prefix = "hwiwonlee/secb.eval.x86_64"
+image_tag = "patch"
+[docker.run_kwargs]
+mem_limit = "8g"
+network_mode = "none"
+
+[strict]
+arm = "two_stage"
+seeds = [0, 1, 2]
+eval_mode = "all"

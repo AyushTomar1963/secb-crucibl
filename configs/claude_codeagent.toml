@@ -1,0 +1,33 @@
+# smolagents CodeAgent (model writes Python that calls the `cmd` tool).
+# NOTE: "codeagent" = smolagents' CodeAgent scaffold, not the Claude Code CLI.
+# Consumed by secb_strict.dual_runner, NOT by upstream `smolagent secb-run`
+# (upstream runs the agent inside the container with network_mode=host).
+
+[model]
+type = "LiteLLMModel"
+model_id = "anthropic/claude-sonnet-5-5"   # pick the model under test; keep it fixed across arms
+temperature = 0.0
+# No api_key here. LiteLLM reads ANTHROPIC_API_KEY from the HOST environment;
+# the key must never be passed into the container.
+
+[agent]
+type = "CodeAgent"
+max_steps = 30          # same as upstream example config, so arms are comparable
+tools = ["cmd"]         # no web search / visit_webpage in ANY arm
+
+[dataset]
+name = "SEC-bench/SEC-bench"
+split = "cve"
+instance_ids = []       # fill from results/preflight.jsonl (only PASS rows)
+
+[docker]
+image_prefix = "hwiwonlee/secb.eval.x86_64"
+image_tag = "patch"
+[docker.run_kwargs]
+mem_limit = "8g"
+network_mode = "none"   # stock default is "host"; this is the point of the sandbox arm
+
+[strict]
+arm = "two_stage"       # single_sb | two_stage | two_stage_orc  (stock = upstream secb-run)
+seeds = [0, 1, 2]       # >=3 seeds: n=25 is too small for single-run claims
+eval_mode = "all"       # upstream eval_instances --mode: report strict AND medium

@@ -1,0 +1,1 @@
+arm,scaffold,n_instances,n_seeds,pass_strict,pass_medium,loc_file_hit,loc_symbol_hit,loc_line_iou_mean,crash_frame_baseline_symbol_hit,suspect_pass,mean_steps,mean_cost_usd
